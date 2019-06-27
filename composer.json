@@ -1,0 +1,20 @@
+{
+  "name": "bmsrox/easy-peasy",
+  "description": "Small framework to small apps",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Marinho",
+      "email": "bmsrox@gmail.com"
+    }
+  ],
+  "require": {
+      "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "easyPeasy\\": "src/"
+    }
+  }
+}
